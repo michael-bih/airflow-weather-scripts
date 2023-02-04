@@ -152,3 +152,5 @@ if df_spark_2.take(1):
         .partitionBy('current_weather_date_partition') \
         .mode('overwrite') \
         .parquet('/user/hadoop/processed/clean/minutely')
+
+    # this is a test
